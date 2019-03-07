@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MineFragment"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/User_head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_round"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="维保助手"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="账号：1234567890"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_account"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="账户与安全"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:drawableRight="@mipmap/ic_launcher_round"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/user_newmessge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="新消息通知"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:drawableRight="@mipmap/ic_launcher_round"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/user_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="隐私"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:drawableRight="@mipmap/ic_launcher_round"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/user_general"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="通用"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:drawableRight="@mipmap/ic_launcher_round"/>
+
+            <TextView
+                android:id="@+id/user_aboutWe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="关于我们"
+                android:paddingTop="20dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:drawableRight="@mipmap/ic_launcher_round"/>
+
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/user_quit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="退出登录"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+       />
+
+
+</LinearLayout>
